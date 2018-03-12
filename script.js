@@ -1,7 +1,8 @@
 $(document).ready(function(){
     //Write all your jQuery code here
         $("button").click(function() {
-      $("#like").html("You like this project!");
+      $("#like").html("You like this project!")
+      $("#like").css("color", "green");
     });
     
     
